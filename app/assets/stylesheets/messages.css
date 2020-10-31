@@ -25,18 +25,23 @@
   background-color:#FFFFFF;
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main-footer{
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+  display: flex;
 }
 
 .main-body{
   background-color: #FAFAFA;
   height: calc(100vh - 190px);
   padding: 46px 40px 0px 40px;
+  overflow: scroll;
 }
 
 .rooms{
@@ -71,3 +76,81 @@
   text-decoration: none;
 }
 
+.main-header room-name{
+  color: #333;
+  padding: 36px 40px;
+  font-size: 24px;
+}
+
+.end-group-btn{
+  border: 1px solid darkred;
+  padding: 20px;
+  margin: 40px;
+}
+
+.end-group-btn a{
+  color: darkred;
+  text-decoration: none;
+}
+
+.message-name{
+  font-size: 16px;
+  color: #434A54;
+  margin: 10px 10px 10px 0;
+}
+
+.posted-at{
+  color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.text{
+  color: #434A54;
+  font-size: 14px;
+}
+
+.message{
+  margin: 0 40px 0 0;
+}
+
+.message-info{
+  display: flex;
+}
+
+.message-text{
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+}
+
+.text-form{
+  background-color: #DDDDDD;
+  width: 100%;
+  display: flex;
+}
+
+.submit-btn{
+  height: 50px;
+  padding: 0 20px;
+  margin-left: 15px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  background-color: #38AEF0;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
